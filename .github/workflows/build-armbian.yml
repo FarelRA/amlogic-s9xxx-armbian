@@ -19,6 +19,7 @@ on:
           - noble
           - bullseye
           - bookworm
+          - sid
       armbian_board:
         description: "Select device board."
         required: false
@@ -233,7 +234,7 @@ on:
         options:
           - ophub
           - angel
-          - yourname
+          - farel
 
 env:
   TZ: America/New_York
